@@ -47,9 +47,6 @@
                                                 <color key="tintColor" name="colorMode"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
-                                                <connections>
-                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="tAl-t4-Zbt"/>
-                                                </connections>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRu-yN-ufc">
                                                 <rect key="frame" x="353" y="0.99999999999999645" width="40" height="38.333333333333329"/>
@@ -60,6 +57,9 @@
                                                 <color key="tintColor" name="colorMode"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
+                                                <connections>
+                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BcC-i1-rwd"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
